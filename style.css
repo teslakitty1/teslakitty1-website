@@ -1,0 +1,38 @@
+/* Default (Light Mode) Styles */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4; /* Light gray */
+    color: #333; /* Dark gray */
+    margin: 20px;
+}
+
+h1 {
+    color: #007bff; /* Blue */
+    text-align: center;
+}
+
+h2 {
+    color: #6c757d; /* Slightly lighter gray */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a; /* Dark gray/black */
+    color: #f0f0f0; /* Light gray/white */
+}
+
+h1.dark-mode {
+    color: #66b3ff; /* Lighter blue for dark mode */
+}
+
+h2.dark-mode {
+    color: #d3d3d3; /* Light gray for dark mode */
+}
+
+p.dark-mode {
+    color: #dcdcdc; /* Slightly lighter gray for dark mode */
+}
